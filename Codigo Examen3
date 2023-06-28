@@ -1,0 +1,245 @@
+create table tabla1 (
+id number (20),
+nombre nvarchar2 (40),
+precio float (20),
+num_tipo number (20),
+num_mar number (20));
+
+create table tabla2 (
+
+id number (20),
+tipo nvarchar2 (20));
+
+create table tabla3 (
+id number (20),
+marca nvarchar2(20));
+
+
+
+/*1= Panes */
+insert into tabla1 values (1,'Nito',15,1,1); 
+insert into tabla1 values (2,'Bimbuñuelos',20,1,1);
+insert into tabla1 values (3,'Donas espolvoreadas',21,1,1);
+insert into tabla1 values (4,'Mantecadas',25,1,1);
+insert into tabla1 values (5,'Donas azucaradas',18,1,1);
+insert into tabla1 values (6,'Panque de nuez',38,1,1);
+insert into tabla1 values (7,'Roles de canela',24,1,1);
+insert into tabla1 values (8,'Crossantines choco',15,1,1);
+insert into tabla1 values (9,'Panque de pasas',35,1,1);
+insert into tabla1 values (10,'Roles con glaseado',26,1,1);
+insert into tabla1 values (11,'Dalmata',12,1,1);
+insert into tabla1 values (12,'Pinguinos',20,1,1);
+insert into tabla1 values (13,'Gansito',17,1,1);
+insert into tabla1 values (14,'Mantecadas de chocolate',25,1,1);
+
+/*2= Bebidas */
+insert into tabla1 values (15,'Del valle frut',15,2,2);
+insert into tabla1 values (16,'Coca cola',16,2,2);
+insert into tabla1 values (17,'Coca cola rosalia',20,2,2);
+insert into tabla1 values (18,'Sidral',17,2,2);
+insert into tabla1 values (19,'Fuzetea',18,2,2);
+insert into tabla1 values (20,'Coca cola de cereza',20,2,2);
+insert into tabla1 values (21,'Agua purificada',15,2,2);
+insert into tabla1 values (22,'Fanta',15,2,2);
+insert into tabla1 values (23,'Sprite',15,2,2);
+
+/*3= Papas*/
+insert into tabla1 values (24,'Sabritas naturales',18,3,3);
+insert into tabla1 values (25,'Sabritas abobadas',18,3,3);
+insert into tabla1 values (26,'Rufles original',18,3,3);
+insert into tabla1 values (27,'Crujitos',18,3,3);
+insert into tabla1 values (28,'Churrumais',15,3,3);
+insert into tabla1 values (29,'Sabritas receta crujiente',18,3,3);
+insert into tabla1 values (30,'Takis fuego',18,3,3);
+insert into tabla1 values (31,'Doritos diablo',18,3,3);
+insert into tabla1 values (32,'Takis guacamole',20,3,3);
+insert into tabla1 values (33,'Doritos incognita',18,3,3);
+insert into tabla1 values (34,'Rufles de queso',18,3,3);
+insert into tabla1 values (35,'Paketaxo queso',25,3,3);
+insert into tabla1 values (36,'Fritos chipotle',17,3,3);
+insert into tabla1 values (37,'Chetos bolita',15,3,3);
+insert into tabla1 values (38,'Takis amarillos',20,3,3);
+insert into tabla1 values (39,'Doritos pizzerola',20,3,3);
+insert into tabla1 values (40,'Doritos flamit hot',18,3,3);
+insert into tabla1 values (41,'Rancheritos',17,3,3);
+insert into tabla1 values (42,'Chetos torciditos',17,3,3);
+insert into tabla1 values (43,'Chetos colmillos',18,3,3);
+insert into tabla1 values (44,'Paketaxo flamit hot',25,3,3);
+insert into tabla1 values (45,'Doritos nachos',20,3,3);
+insert into tabla1 values (46,'Chetos flamit hot',15,3,3);
+insert into tabla1 values (47,'Toreadas',20,3,3);
+insert into tabla1 values (48,'Chips jalapeño',20,3,3);
+insert into tabla1 values (49,'Chipotles',20,3,3);
+insert into tabla1 values (50,'Big mix',25,3,3);
+insert into tabla1 values (51,'Chips naturales',20,3,3);
+insert into tabla1 values (52,'Wapas',20,3,3);
+insert into tabla1 values (53,'Papatinas fuego',15,3,3);
+insert into tabla1 values (54,'Pop',20,3,3);
+insert into tabla1 values (55,'Papatinas jalapño',15,3,3);
+insert into tabla1 values (56,'Runners',18,3,3);
+insert into tabla1 values (57,'Chips naturales',20,3,3);
+
+/* 4= Comida */
+insert into tabla1 values (58,'Quesadillas',20,4,4);
+insert into tabla1 values (59,'Tacos',23,4,4);
+insert into tabla1 values (60,'Hamburguesas',15,4,4);
+insert into tabla1 values (61,'Pambazos',20,4,4);
+
+/* 5= Galletas */
+insert into tabla1 values (62,'Galletas principe',20,5,5);
+insert into tabla1 values (63,'Barritas de piña',15,5,5);
+insert into tabla1 values (64,'Emperador de chocolate',20,5,5);
+insert into tabla1 values (65,'Barritas fresa',15,5,5);
+insert into tabla1 values (66,'Galletas polvorones',20,5,5);
+insert into tabla1 values (67,'Galletas sponch',22,5,5);
+insert into tabla1 values (68,'Galletas canelitas',20,5,5);
+insert into tabla1 values (69,'Mini rocko',5,5,5);
+insert into tabla1 values (70,'Galletas chokis',20,5,5);
+insert into tabla1 values (71,'Emperador de limon',20,5,5);
+insert into tabla1 values (72,'Galletas triki trakes',20,5,5);
+insert into tabla1 values (73,'Rebanadas',12,5,5);
+insert into tabla1 values (74,'Emperador de Vainilla',20,5,5);
+insert into tabla1 values (75,'Marias',17,5,5);
+
+drop table tabla1;
+drop table tabla2;
+drop table tabla3;
+
+
+
+insert into tabla2 values (1,'Alcohol');
+insert into tabla2 values (2,'Ropa');
+insert into tabla2 values (3,'Medicina');
+insert into tabla2 values (4,'Audifonos');
+insert into tabla2 values (5,'Cargadores');
+
+insert into tabla3 values (1,'Cerveza');
+insert into tabla3 values (2,'Shein');
+insert into tabla3 values (3,'Paracetamol');
+insert into tabla3 values (4,'Binden');
+insert into tabla3 values (5,'iphone');
+
+
+/* Trigger */
+
+create sequence sec_tabla2 
+start with 1 increment by 1
+maxvalue 100
+minvalue 1;
+
+drop SEQUENCE sec_tabla2;
+drop SEQUENCE sec_tabla3;
+
+create or replace trigger tr_llenar2
+before insert
+on tabla1
+for each row
+begin
+if: new.num_tipo = 1 then
+    insert into tabla2 values(sec_tabla2.nextval,'Panes');
+    end if;
+if: new.num_tipo = 2 then
+    insert into tabla2 values(sec_tabla2.nextval,'Bebidas');
+    end if;
+if: new.num_tipo = 3 then
+    insert into tabla2 values(sec_tabla2.nextval,'Papas');
+    end if;
+if: new.num_tipo = 4 then
+    insert into tabla2 values(sec_tabla2.nextval,'Comida');
+    end if;
+if: new.num_tipo = 5 then
+    insert into tabla2 values(sec_tabla2.nextval,'Galletas');
+    end if;
+    end;
+    
+    
+create sequence sec_tabla3 
+start with 1 increment by 1
+maxvalue 100
+minvalue 1;
+
+create or replace trigger tr_llenar3
+before insert
+on tabla1
+for each row
+begin
+if: new.num_mar = 1 then
+    insert into tabla3 values(sec_tabla3.nextval,'Bimbo');
+    end if;
+if: new.num_mar = 2 then
+    insert into tabla3 values(sec_tabla3.nextval,'Boing');
+    end if;
+if: new.num_mar = 3 then
+    insert into tabla3 values(sec_tabla3.nextval,'Sabritas');
+    end if;
+if: new.num_mar = 4 then
+    insert into tabla3 values(sec_tabla3.nextval,'TESOEM');
+    end if;
+if: new.num_mar = 5 then
+    insert into tabla3 values(sec_tabla3.nextval,'Gamesa');
+    end if;
+    end;
+    
+    
+/* inner joins*/
+
+SELECT Tabla1.Nombre, Tabla1.Precio, Tabla2.Tipo, Tabla3.Marca
+FROM Tabla1
+FULL JOIN Tabla2 ON Tabla1.Num_tipo = Tabla2.Id
+FULL JOIN Tabla3 ON Tabla1.Num_mar = Tabla3.Id;
+
+SELECT Tabla1.Nombre, Tabla3.Marca
+FROM Tabla1
+INNER JOIN Tabla3 ON Tabla1.id = Tabla3.Id
+WHERE Tabla3.Marca = 'TESOEM';
+
+
+SELECT * FROM Tabla1 LEFT JOIN Tabla2 ON tabla1.id=tabla2.id where tabla2.id is null;
+
+SELECT * FROM Tabla1 RIGHT JOIN Tabla3 ON tabla1.id=tabla3.id where tabla1.id is not null;
+
+
+SELECT * FROM Tabla1 
+Full join tabla2 on tabla1.id=tabla2.id full join tabla3 on tabla.id=tabla3.id where tabla1.id is null or tabla2.id is null;
+
+select * from tabla1 full join tabla2 on tabla1.id=tabla2.id and tabla1.nombre=tabla2.tipo Full join tabla3 on tabla1.id = tabla3.id and tabla1.nombre=tabla3.marca ; 
+
+SELECT Tabla1.Nombre, Tabla1.Precio, Tabla2.Tipo, Tabla3.Marca
+FROM Tabla1
+JOIN Tabla2 ON Tabla1.Num_tipo = Tabla2.Id
+JOIN Tabla3 ON Tabla1.Num_mar = Tabla3.Id
+WHERE Tabla1.Nombre LIKE 'T%';
+
+/* tabla extra */
+
+CREATE TABLE TablaExtra (
+  Mensaje VARCHAR2(100)
+);
+
+CREATE OR REPLACE TRIGGER tr_letra
+AFTER INSERT ON Tabla1
+FOR EACH ROW
+DECLARE
+  letra VARCHAR2(1);
+BEGIN
+  letra := UPPER(SUBSTR(:NEW.Nombre, 1, 1));
+  IF letra = 'T' THEN
+    INSERT INTO TablaExtra (Mensaje) VALUES ('Se insertó un producto con la vitamina T con nombre ' || :NEW.Nombre);
+  END IF;
+END;
+
+
+SELECT *FROM TABLA1;
+SELECT *FROM TABLA2;
+SELECT *FROM TABLA3;
+select * from tablaextra;
+
+/* crear vista */
+
+CREATE VIEW Vista AS
+SELECT Tabla1.Nombre, Tabla1.Precio, Tabla2.Tipo, Tabla3.Marca
+FROM Tabla1
+JOIN Tabla2 ON Tabla1.Num_tipo = Tabla2.Id
+JOIN Tabla3 ON Tabla1.Num_mar = Tabla3.Id;
+
+SELECT * FROM Vista;
